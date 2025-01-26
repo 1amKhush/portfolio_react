@@ -1,0 +1,80 @@
+@import "../../vars.css"
+
+@media (max-width : 219px) {}
+
+.about {
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgb(1, 1, 32);
+    margin-top: 20px;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 20px;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.title {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+}
+
+.section {
+    display: flex;
+    padding: 5px;
+}
+
+.listItem {
+    display: flex;
+    border-radius: 10px;
+    margin: 65px 2px;
+    padding: 10px;
+    transition: background 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.listItem:hover {
+    background: linear-gradient(
+      90deg, 
+      rgba(255, 255, 255, 0.5) 0%, 
+      rgba(255, 255, 255, 0.25) 50%, 
+      rgba(1, 1, 32,1) 100%
+    );
+    cursor: pointer;
+  }
+
+.listHeading {
+    color: var(--color-text);
+    font-size: 25px;
+}
+
+.para {
+    color: rgb(180, 174, 174);
+}
+
+@media screen and (mmax-width: 830px) {
+    .about {
+        background-color: transparent;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .section {
+        flex-direction: column;
+    }
+
+    .aboutImage {
+        display: none;
+    }
+
+    .list {
+        margin-top: 29px;
+    }
+
+    .listItem {
+        padding-left: 0;
+        padding-right: 0;
+    }
+}

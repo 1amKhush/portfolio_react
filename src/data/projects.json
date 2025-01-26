@@ -1,0 +1,28 @@
+[
+    {
+        "title": "PACMAN",
+        "imgSrc": "assets/projects/pacman.png",
+        "description": "Pacman in C by applying A* alogorithm",
+        "skills": ["C","SDL"],
+        "demo": "https://github.com/1amKhush?tab=repositories",
+        "source": "https://github.com/1amKhush/PacMan-inC-Project"
+    },
+
+    {
+        "title": "Project A",
+        "imgSrc": "assets/projects/project.png",
+        "description": "pacman in C by applying A* alogorithm",
+        "skills": ["C","SDL"],
+        "demo": "https://github.com/1amKhush?tab=repositories",
+        "source": "https://github.com/1amKhush?tab=repositories"
+    },
+
+    {
+        "title": "Project A",
+        "imgSrc": "assets/projects/project.png",
+        "description": "pacman in C by applying A* alogorithm",
+        "skills": ["C","SDL"],
+        "demo": "https://github.com/1amKhush?tab=repositories",
+        "source": "https://github.com/1amKhush?tab=repositories"
+    }
+]
