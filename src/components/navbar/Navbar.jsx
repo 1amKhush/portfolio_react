@@ -12,7 +12,7 @@ export default function Navbar() {
                 <a href="/" className={styles.title}>Portfolio</a>
                 <div className={styles.menu}>
                     <img className={styles.menubtn}
-                        src={menuOpen ? "assets/nav/menuIcon.png" : "assets/nav/closeIcon.png"}
+                        src={menuOpen ? "../../assets/nav/menuIcon.png" : "assets/nav/closeIcon.png"}
                         onClick={() => setMenuOpen(!menuOpen)} alt="menu-btn" />
                     <ul className={`${styles.menuItems} ${(!menuOpen) && styles.menuOpen}`}
                         onClick={() => setMenuOpen(true)}>

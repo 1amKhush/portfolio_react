@@ -13,7 +13,7 @@ export default function Hero() {
                     <a href="mailto:khushvendras99@gmail.com" className={styles.contactBtn}>Contact Me</a>
                 </div>
 
-                <img src="../assets/hero/hero.png" className={styles.heroImage}></img>
+                <img src="../../assets/hero/hero.png" className={styles.heroImage} alt="Hero"></img>
 
                 <div className={styles.topBlur}></div>
                 <div className={styles.bottomBlur}></div>
