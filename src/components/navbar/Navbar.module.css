@@ -1,3 +1,5 @@
+@import "../../vars.css";
+
 .navbar {
     position: relative;
     display: flex;
@@ -17,63 +19,78 @@
 
 .menu {
     display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .menubtn {
-    padding-right: 5x;
+    display: none; /* Initially hidden, shown on small screens */
+    cursor: pointer;
+    font-size: 28px;
+    background: none;
+    border: none;
+    color: var(--color-text);
 }
 
 .menuItems {
     display: flex;
-    gap: 47px;
+    gap: 30px;
     list-style: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .menuItems a {
-    font-size: 25px;
+    font-size: 20px;
     color: var(--color-text);
     text-decoration: none;
+    transition: color 0.3s ease-in-out;
 }
 
-@media screen and (max-width: 830px){
+.menuItems a:hover {
+    color: var(--color-primary);
+}
+
+/* Mobile Navigation */
+@media screen and (max-width: 830px) {
     .navbar {
         flex-direction: column;
         align-items: flex-start;
     }
 
+    .menubtn {
+        display: block;
+    }
+
     .menu {
         position: absolute;
         right: 0;
+        top: 70px;
         margin-right: 10%;
         flex-direction: column;
         align-items: flex-end;
-        gap: 11px;
         z-index: 3;
     }
 
-    .menubtn {
-        display: block;
-        cursor: pointer;
-    }
-
     .menuItems {
-        display: none;
+        display: none; /* Initially hidden */
         flex-direction: column;
         align-items: center;
         gap: 13px;
         border-radius: 10px;
-        background: rgb(25,55,105);
         background: linear-gradient(
             0deg,
-            rgba(25,55,100,0.2)0%,
-            rgba(25,55,100,1)100%
+            rgba(25, 55, 100, 0.2) 0%,
+            rgba(25, 55, 100, 1) 100%
         );
         padding: 24px 33px;
-        box-shadow: 0 0 4px rgba(0,0,0,0.255);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+        position: absolute;
+        top: 100%;
+        right: 10%;
+        min-width: 200px;
     }
 
     .menuOpen {
         display: flex;
-        z-index: 1;
     }
 }

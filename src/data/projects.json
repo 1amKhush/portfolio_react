@@ -9,20 +9,20 @@
     },
 
     {
-        "title": "Project A",
-        "imgSrc": "assets/projects/project.png",
-        "description": "pacman in C by applying A* alogorithm",
-        "skills": ["C","SDL"],
-        "demo": "https://github.com/1amKhush?tab=repositories",
-        "source": "https://github.com/1amKhush?tab=repositories"
+        "title": "PostVerse",
+        "imgSrc": "assets/projects/posterverse.jpg",
+        "description": "Best place to find posters of your favourite movies and TV shows",
+        "skills": ["React","TailwindCSS"],
+        "demo": "https://postverse-ten.vercel.app/",
+        "source": "https://github.com/1amKhush/PostVerse"
     },
 
     {
-        "title": "Project A",
-        "imgSrc": "assets/projects/project.png",
-        "description": "pacman in C by applying A* alogorithm",
-        "skills": ["C","SDL"],
-        "demo": "https://github.com/1amKhush?tab=repositories",
-        "source": "https://github.com/1amKhush?tab=repositories"
+        "title": "VolunteersIITJ",
+        "imgSrc": "assets/projects/logo.png",
+        "description": "A single stop for all the volunteering opportunities in IIT Jodhpur",
+        "skills": ["Tailwind","MongoDB","Express","FireBase","Node"],
+        "demo": "https://github.com/HeroicDevelopers69/volunteersiitj",
+        "source": "https://github.com/HeroicDevelopers69/volunteersiitj"
     }
 ]

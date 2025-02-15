@@ -22,6 +22,7 @@
 }
 
 .description {
+    max-width: 429px; /* Match the image width */
     margin-top: 6px;
     font-size: 25px;
     font-weight: 400;
@@ -29,7 +30,7 @@
 }
 
 .skills {
-    width: 100%;
+    max-width: 429px; /* Match the image width */
     margin-top: 14px;
     display: flex;
     flex-direction: row;
@@ -51,7 +52,6 @@
     margin-top: 26px;
     display: flex;
     justify-content: center;
-    
 }
 
 .links :hover {
@@ -65,7 +65,7 @@
     font-weight: 600;
     border-radius: 100px;
     background: var(--color-primary);
-    padding:  1px 22px;
+    padding: 1px 22px;
     margin-left: 5px;
     margin-right: 5px;
 }
