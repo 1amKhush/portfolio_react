@@ -19,7 +19,7 @@
 
     {
         "title": "VolunteersIITJ",
-        "imgSrc": "../../assets/projects/logo.png",
+        "imgSrc": "../../assets/projects/volunteersiitj.png",
         "description": "A single stop for all the volunteering opportunities in IIT Jodhpur",
         "skills": ["Tailwind","MongoDB","Express","FireBase","Node"],
         "demo": "https://github.com/HeroicDevelopers69/volunteersiitj",
