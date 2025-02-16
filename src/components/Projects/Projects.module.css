@@ -25,6 +25,18 @@
     width: 100%;
 }
 
+.projectCard {
+    flex: 1 1 calc(33.33% - 20px); /* 3 cards per row with some gap */
+    max-width: calc(33.33% - 20px);
+}
+
+@media screen and (max-width: 1024px) {
+    .projectCard {
+        flex: 1 1 calc(50% - 20px); /* 2 cards per row on medium screens */
+        max-width: calc(50% - 20px);
+    }
+}
+
 @media screen and (max-width: 768px) {
     .container {
         margin-left: 5%;
@@ -37,5 +49,10 @@
 
     .projects {
         gap: 10px;
+    }
+
+    .projectCard {
+        flex: 1 1 100%; /* 1 card per row on smaller screens */
+        max-width: 100%;
     }
 }
