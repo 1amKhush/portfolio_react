@@ -37,7 +37,6 @@ export default function About() {
               <p className={styles.description}>I have designed multiple landing pages and
                 have created design systems as well</p>
             </div>
-
           </li>
         </ul>
       </div>

@@ -14,7 +14,7 @@ export default function Navbar() {
                 <a href="/" className={styles.title}>My Portfolio</a>
                 <div className={styles.menu}>
                     <img className={styles.menubtn}
-                        src={menuOpen ? {img3} : {img2}}
+                        src={menuOpen ? {img2} : {img3}}
                         onClick={() => setMenuOpen(!menuOpen)} alt="menu-btn" />
                     <ul className={`${styles.menuItems} ${(!menuOpen) && styles.menuOpen}`}
                         onClick={() => setMenuOpen(true)}>

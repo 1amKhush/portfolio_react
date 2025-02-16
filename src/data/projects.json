@@ -1,7 +1,7 @@
 [
     {
         "title": "PACMAN",
-        "imgSrc": "../../assets/projects/pacman.png",
+        "imgKey": "pacman",
         "description": "Pacman in C by applying A* alogorithm",
         "skills": ["C","SDL"],
         "demo": "https://github.com/1amKhush?tab=repositories",
@@ -10,7 +10,7 @@
 
     {
         "title": "PostVerse",
-        "imgSrc": "../../assets/projects/posterverse.jpg",
+        "imgKey": "posterverse",
         "description": "Best place to find posters of your favourite movies and TV shows",
         "skills": ["React","TailwindCSS"],
         "demo": "https://postverse-ten.vercel.app/",
@@ -19,7 +19,7 @@
 
     {
         "title": "VolunteersIITJ",
-        "imgSrc": "../../assets/projects/volunteersiitj.png",
+        "imgKey": "volunteersiitj",
         "description": "A single stop for all the volunteering opportunities in IIT Jodhpur",
         "skills": ["Tailwind","MongoDB","Express","FireBase","Node"],
         "demo": "https://github.com/HeroicDevelopers69/volunteersiitj",
