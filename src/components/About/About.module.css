@@ -1,6 +1,4 @@
-@import "../../vars.css"
-
-@media (max-width : 219px) {}
+@import "../../vars.css";
 
 .about {
     padding-top: 40px;
@@ -43,7 +41,7 @@
       rgba(1, 1, 32,1) 100%
     );
     cursor: pointer;
-  }
+}
 
 .listHeading {
     color: var(--color-text);
@@ -54,7 +52,7 @@
     color: rgb(180, 174, 174);
 }
 
-@media screen and (mmax-width: 830px) {
+@media screen and (max-width: 768px) {
     .about {
         background-color: transparent;
         padding-left: 0;
@@ -76,5 +74,17 @@
     .listItem {
         padding-left: 0;
         padding-right: 0;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .listHeading {
+        font-size: 20px;
+    }
+
+    .para {
+        font-size: 18px;
     }
 }
