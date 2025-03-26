@@ -2,7 +2,7 @@
     {
         "title": "PACMAN",
         "imgKey": "pacman",
-        "description": "Pacman in C by applying A* alogorithm",
+        "description": "Pac-Man game with AI-driven ghosts using A* algorithm for smarter pathfinding and challenging gameplay.",
         "skills": ["C","SDL"],
         "demo": "https://github.com/1amKhush?tab=repositories",
         "source": "https://github.com/1amKhush/PacMan-inC-Project"
@@ -24,5 +24,14 @@
         "skills": ["Tailwind","MongoDB","Express","FireBase","Node"],
         "demo": "https://github.com/HeroicDevelopers69/volunteersiitj",
         "source": "https://github.com/HeroicDevelopers69/volunteersiitj"
+    },
+
+    {
+        "title": "WebWallet",
+        "imgKey": "webwallet",
+        "description": "Smart finance tracker to monitor expenses, set budgets, track savings, and gain insights for better financial decisions.",
+        "skills": ["MongoDB","Express","React","Node","OAuth"],
+        "demo": "https://github.com/HeroicDevelopers69/volunteersiitj",
+        "source": "https://github.com/1amKhush/WebWallet"
     }
 ]
